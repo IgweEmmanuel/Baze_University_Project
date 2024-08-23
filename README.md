@@ -2,7 +2,7 @@ This repo contains my University(Baze) Software Enginnering final Project
 
 Here, I collaborated with my class mate to bulild a price comparison website using lots of technologies.
 
-```py
+```txt
 -Web scrapping with scrapy
 -proxies
 -django for server side
