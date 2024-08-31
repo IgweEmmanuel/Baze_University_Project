@@ -19,6 +19,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'crispy_forms',
+    'crispy_bootstrap4',
     'django_countries',
 
     'core'
@@ -35,7 +36,7 @@ MIDDLEWARE = [
     'allauth.account.middleware.AccountMiddleware',
 ]
 
-ROOT_URLCONF = 'electrocom.urls'
+ROOT_URLCONF = 'shopwell.urls'
 
 TEMPLATES = [
     {
@@ -53,7 +54,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'electrocom.wsgi.application'
+WSGI_APPLICATION = 'shopwell.wsgi.application'
 
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
